@@ -1,8 +1,24 @@
-[gd_scene load_steps=2 format=3 uid="uid://clgxevib4ykn5"]
+[gd_scene load_steps=3 format=3 uid="uid://clgxevib4ykn5"]
 
+[ext_resource type="Texture2D" uid="uid://beuhc3tccnb6h" path="res://images/panda.png" id="1_k2440"]
 [ext_resource type="Texture2D" uid="uid://bw0cxldsuimlo" path="res://images/icon.svg" id="1_l7bjt"]
 
-[node name="Icon" type="Sprite2D"]
-position = Vector2(710.5, 377)
-scale = Vector2(4.74219, 3.53125)
+[node name="Panda" type="Sprite2D"]
+position = Vector2(337, 248)
+scale = Vector2(0.583857, 0.583857)
+texture = ExtResource("1_k2440")
+
+[node name="Robot" type="Sprite2D" parent="."]
+modulate = Color(1, 0.141176, 0.247059, 1)
+position = Vector2(760.46, 246.636)
 texture = ExtResource("1_l7bjt")
+
+[node name="Robot2" type="Sprite2D" parent="."]
+position = Vector2(591.084, -71.1861)
+texture = ExtResource("1_l7bjt")
+
+[node name="BabyPanda" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(917.847, 310.971)
+scale = Vector2(0.34255, 0.34255)
+texture = ExtResource("1_k2440")
